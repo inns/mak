@@ -1,9 +1,9 @@
-<img src='logo.png' width=200 height=200 align='right'/>
+<img src='https://github.com/quietshu/makpad/raw/master/docs/mak.png' width=200 height=200 align='right'/>
 
-# Mak
-A piece of paper.
+# Mak 
+A piece of paper. 
 
-> All you do is sit down at a typewriter and bleed.
+> All you do is sit down at a typewriter and bleed.  
 > — Ernest Hemingway
 
 
@@ -35,23 +35,23 @@ A piece of paper.
 
 
 ## Shortcuts
-> Click (or click with middle mouse button) on Markdown links to open (open in new tab).
-> Click on Markdown checkboxes to toggle a task.
-> Use <kbd>⌘ + [</kbd> / <kbd>⌘ + ]</kbd> to outdent / indent text.
-> Use <kbd>⌥/Alt + Click</kbd> to position the cursor, even on links.
-> Use <kbd>⌘/Ctrl + Click</kbd> to create multiple cursors.
-> Use <kbd>⌥/Alt + Drag</kbd> to select a rectangle area.
-> Use <kbd>⌘/Ctrl + Drag</kbd> to select multiple areas.
-> Use the middle button on mouse to open links in new tab.
-> Type `set:` to open quick commands.
-> Type `go:` to open quick jumping.
+> Click (or click with middle mouse button) on Markdown links to open (open in new tab).  
+> Click on Markdown checkboxes to toggle a task.  
+> Use <kbd>⌘ + [</kbd> / <kbd>⌘ + ]</kbd> to outdent / indent text.  
+> Use <kbd>⌥/Alt + Click</kbd> to position the cursor, even on links.  
+> Use <kbd>⌘/Ctrl + Click</kbd> to create multiple cursors.  
+> Use <kbd>⌥/Alt + Drag</kbd> to select a rectangle area.  
+> Use <kbd>⌘/Ctrl + Drag</kbd> to select multiple areas.  
+> Use the middle button on mouse to open links in new tab.  
+> Type `set:` to open quick commands.  
+> Type `go:` to open quick jumping.  
 
 
 ## URL / link
 ### File (#file)
-> Files start with a hashtag `#` in the URL / link.
-> Files can be accessed via in-document links: `[my todos](#todo)`.
-> Files can be accessed via quick jumping: `go:todo` and hit <kbd>enter</kbd>.
+> Files start with a hashtag `#` in the URL / link.  
+> Files can be accessed via in-document links: `[my todos](#todo)`.  
+> Files can be accessed via quick jumping: `go:todo` and hit <kbd>enter</kbd>.  
 
 + Default notepad
   - [mak.ink#](https://mak.ink#): the default notepad
@@ -66,12 +66,12 @@ A piece of paper.
 
 
 ### Mode (#file?mode)
-> A mode is a pre-defined way to view files, so modes must be attached to a file.
-> Modes start with a question mark `?` in the URL / link.
-> Multiple modes are separated by `&`s: `mak.ink?dark&big`.
-> **Modes defined by the URL, and won't be stored in settings.**
-> So if you click a link or open another file, current mode will be gone.
-> If you want to use a mode as default option, use settings below.
+> A mode is a pre-defined way to view files, so modes must be attached to a file.  
+> Modes start with a question mark `?` in the URL / link.  
+> Multiple modes are separated by `&`s: `mak.ink?dark&big`.  
+> **Modes defined by the URL, and won't be stored in settings.**  
+> So if you click a link or open another file, current mode will be gone.  
+> If you want to use a mode as default option, use settings below.  
 
 + View modes
   - [mak.ink#sample?edit](https://mak.ink#sample?edit): open sample in editor mode
@@ -89,11 +89,11 @@ A piece of paper.
 
 
 ### URL Action (?action)
-> Actions are special modes.
+> Actions are special modes.  
 > Actions start with a question mark `?` in the URL / link,
-  and use `=` to pass parameters.
-> Actions will be removed from URL automatically.
-> **Actions might do changes to your content.**
+  and use `=` to pass parameters.  
+> Actions will be removed from URL automatically.  
+> **Actions might do changes to your content.**  
 
 + Built-in actions
   - [mak.ink?gist=5d52fb081b3570c81e3a](https://mak.ink?gist=5d52fb081b3570c81e3a): load a gist
@@ -102,10 +102,10 @@ A piece of paper.
 
 
 ## Settings (`set:<option>`)
-> You can type `set:<option>` and hit <kbd>enter</kbd> in the editor to change settings.
-> You can create a "set" link and click on it: `[dark](set:dark)`.
-> Settings change preferences globally and persistently.
-> **Settings can be override (locally) by current modes.**
+> You can type `set:<option>` and hit <kbd>enter</kbd> in the editor to change settings.  
+> You can create a "set" link and click on it: `[dark](set:dark)`.  
+> Settings change preferences globally and persistently.  
+> **Settings can be override (locally) by current modes.**  
 
 + View mode settings
   - `set:split`
@@ -128,7 +128,7 @@ A piece of paper.
 ### LaTeX
 The LaTeX rendering feature is powered by [KaTeX](https://khan.github.io/KaTeX/).
 
-You need to wrap the $ inside an inlined code block to render LaTeX inlined equations, or use $$ inside a multi-line code block to get an equation block:
+You need to wrap the $ inside an inlined code block to render LaTeX inlined equations, or use $$ inside a multi-line code block to get an equation block:  
 
   `$\frac{\pi}{2}$`
 
@@ -142,7 +142,7 @@ or
 
 
 ### gist
-Use `?gist=<gist_id>` to load a GitHub gist. It will be stored to `#<gist_id>` automatically.
+Use `?gist=<gist_id>` to load a GitHub gist. It will be stored to `#<gist_id>` automatically.  
 
 Note all the `<` and `>` will be replaced due to security reasons. By using `?gist=<gist_id>&xss` you can disable the replacing manually (but it could be dangerous).
 
@@ -154,7 +154,7 @@ A modified version of [remark](https://remarkjs.com/) is embeded to enable some 
 [TBD.]
 
 ### Drag and drop
-You can drag your file into the editor, and its content will be **inserted** after your cursor automatically.
+You can drag your file into the editor, and its content will be **inserted** after your cursor automatically.  
 
 Currently all files will be read as **plain text** files. And the file size limit is **10MB**.
 
@@ -174,7 +174,7 @@ Currently all files will be read as **plain text** files. And the file size limi
 ### Desktop App
 A menubar App as a sticker, no URL stuffs.
 
-Early builds for macOS and Windows: [Mak mini (TBD.)](#).
+Early builds for macOS and Windows: [Mak mini](https://github.com/quietshu/makpad-mini).
 
 
 ## Examples
@@ -188,12 +188,12 @@ Early builds for macOS and Windows: [Mak mini (TBD.)](#).
 + gist + slideshow
   - [mak.ink?gist=3177ebc6b01dcfaf555c153f601ebf94&slide](https://mak.ink?gist=3177ebc6b01dcfaf555c153f601ebf94&slide)
   - [mak.ink?gist=3177ebc6b01dcfaf555c153f601ebf94&slide&edit](https://mak.ink?gist=3177ebc6b01dcfaf555c153f601ebf94&slide&edit)
-  - You can easily share a document / slide to others by using these URL schemas on gists.
+  - You can easily share a document / slide to others by using these URL schemas on gists.  
 
 
 ## Raw thoughts
 [@chenglou](https://twitter.com/_chenglou) said this in ReactEurope:
-> Not about potential power of doing more - it's about exploiting properties you gain by doing less.
+> Not about potential power of doing more - it's about exploiting properties you gain by doing less. 
 
 As I always believe: Text powers editors. Not the opposite.
 
@@ -201,5 +201,5 @@ As I always believe: Text powers editors. Not the opposite.
 ## License & Acknowledgement
 [TBD.]
 
-By Shu (g@shud.in), SH 2017
+By Shu (g@shud.in), SH 2017  
 https://shud.in
