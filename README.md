@@ -1,10 +1,31 @@
-<img src='https://github.com/quietshu/makpad/raw/master/docs/mak.png' width=200 height=200 align='right'/>
+<img src='logo.png' width=200 height=200 align='right'/>
 
 # Mak 
 A piece of paper. 
 
 > All you do is sit down at a typewriter and bleed.  
 > — Ernest Hemingway
+
+
+## Table of Contents
+- [Features*](#features)
+- [Shortcuts](#shortcuts)
+- [URL / link](#url--link)
+  + [File (#file)](#file-file)
+  + [Mode (#file?mode)](#mode-filemode)
+  + [URL Action (?action)](#url-action-action)
+- [Settings (`set:`)](#settings-set)
+- [More Details](#more-details)
+  + [LaTeX](#latex)
+  + [gist](#gist)
+  + [Slideshow beta](#slideshow-beta)
+  + [Drag and drop](#drag-and-drop)
+  + [Desktop App](#desktop-app)
+  + [Mobile](#mobile)
+  + [iOS App](#ios-app)
+- [Examples](#examples)
+- [Raw thoughts](#raw-thoughts)
+- [License & Acknowledgement](#license--acknowledgement)
 
 
 ## Features<sup>*</sup>
@@ -142,16 +163,17 @@ or
 
 
 ### gist
-Use `?gist=<gist_id>` to load a GitHub gist. It will be stored to `#<gist_id>` automatically.  
+Use `?gist=<gist_id>` to load a GitHub gist. It will be stored to `#<gist_id>` automatically (and replace the original context, if exists).  
 
 Note all the `<` and `>` will be replaced due to security reasons. By using `?gist=<gist_id>&xss` you can disable the replacing manually (but it could be dangerous).
 
-[TBD.]
 
 ### Slideshow <sup>beta<sup>
 A modified version of [remark](https://remarkjs.com/) is embeded to enable some slideshow features.
 
-[TBD.]
+Slides are separated by `---`, checkout the **Examples** section below. And you can find more details in the remark documentation.
+
+Also, this feature is beta currently and there could be unexpected errors.
 
 ### Drag and drop
 You can drag your file into the editor, and its content will be **inserted** after your cursor automatically.  
@@ -159,22 +181,20 @@ You can drag your file into the editor, and its content will be **inserted** aft
 Currently all files will be read as **plain text** files. And the file size limit is **10MB**.
 
 
-### Quote placeholders
-[TBD.]
-
-
-### iOS browser
-[TBD.]
-
-
-### iOS App
-[TBD.]
-
-
 ### Desktop App
 A menubar App as a sticker, no URL stuffs.
 
 Early builds for macOS and Windows: [Mak mini](https://github.com/quietshu/makpad-mini).
+
+
+### Mobile
+Technique details: due to the slow progress of the [IME](https://caniuse.com/#feat=ime) API implementation on `contenteditable` elements, we're using the native `textarea` as the input handler on mobile devices to make IME work. But textareas cannot do any _styling_ or _customization_. So some implementations in CodeMirror (and any other in-browser editors) might be hacky which caused strange behaviours on mobile devices (such as cursor moving and copy-paste experience).  
+
+Solution: make a native App.
+
+
+### iOS App
+[TBD.]
 
 
 ## Examples
@@ -203,3 +223,4 @@ As I always believe: Text powers editors. Not the opposite.
 
 By Shu (g@shud.in), SH 2017  
 https://shud.in
+
