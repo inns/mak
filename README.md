@@ -90,7 +90,7 @@ A piece of paper.
 > A mode is a pre-defined way to view files, so modes must be attached to a file.  
 > Modes start with a question mark `?` in the URL / link.  
 > Multiple modes are separated by `&`s: `mak.ink?dark&big`.  
-> **Modes defined by the URL, and won't be stored in settings.**  
+> **Modes are defined by the URL, and won't be stored in settings.**  
 > So if you click a link or open another file, current mode will be gone.  
 > If you want to use a mode as default option, use settings below.  
 
@@ -102,10 +102,10 @@ A piece of paper.
   - [mak.ink?dark](https://mak.ink?dark): dark mode
   - [mak.ink?light](https://mak.ink?light): light mode (default)
 + Slides
-  - [mak.ink?slide](https://mak.ink?slide): open in slide mode
+  - [mak.ink?slide](https://mak.ink?slide): open in the slideshow mode
 + Other settings
   - [mak.ink?big](https://mak.ink?big): larger text
-  - [mak.ink?cnt](https://mak.ink?cnt): show text counter
+  - [mak.ink?cnt](https://mak.ink?cnt): show word counter (as tab title)
   - Bascially most of settings can be attached to files as modes.
 
 
@@ -168,12 +168,17 @@ Use `?gist=<gist_id>` to load a GitHub gist. It will be stored to `#<gist_id>` a
 Note all the `<` and `>` will be replaced due to security reasons. By using `?gist=<gist_id>&xss` you can disable the replacing manually (but it could be dangerous).
 
 
+### Embeding as iframe
+[TBD.]
+
+
 ### Slideshow <sup>beta<sup>
 A modified version of [remark](https://remarkjs.com/) is embeded to enable some slideshow features.
 
 Slides are separated by `---`, checkout the **Examples** section below. And you can find more details in the remark documentation.
 
 Also, this feature is beta currently and there could be unexpected errors.
+
 
 ### Drag and drop
 You can drag your file into the editor, and its content will be **inserted** after your cursor automatically.  
