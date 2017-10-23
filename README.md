@@ -18,6 +18,7 @@ A piece of paper.
 - [More Details](#more-details)
   + [LaTeX](#latex)
   + [gist](#gist)
+  + [Embeding as iframe](#embeding-as-iframe)
   + [Slideshow beta](#slideshow-beta)
   + [Drag and drop](#drag-and-drop)
   + [Desktop App](#desktop-app)
