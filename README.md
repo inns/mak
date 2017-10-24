@@ -1,6 +1,8 @@
-<img src='logo.png' width=200 height=200 align='right'/>
+<img src='mak.png' width=128 height=128 align='right'/>
 
-# Mak 
+# Mak
+[<img src='https://img.shields.io/gitter/room/inns/mak.svg'/>](https://gitter.im/inns/mak) <img src='https://img.shields.io/github/package-json/v/inns/mak.svg'/> [<img src='https://img.shields.io/website-up-down-green-red/https/mak.ink.svg?label=mak.ink'/>](https://mak.ink)  
+
 A piece of paper. 
 
 > All you do is sit down at a typewriter and bleed.  
@@ -19,13 +21,15 @@ A piece of paper.
   + [LaTeX](#latex)
   + [gist](#gist)
   + [Embeding as iframe](#embeding-as-iframe)
-  + [Slideshow beta](#slideshow-beta)
+  + [Slideshow (beta)](#slideshow-beta)
   + [Drag and drop](#drag-and-drop)
   + [Desktop App](#desktop-app)
   + [Mobile](#mobile)
   + [iOS App](#ios-app)
+  + [Open Source](#open-source)
 - [Examples](#examples)
-- [Raw thoughts](#raw-thoughts)
+- [Raw Thoughts](#raw-thoughts)
+- [Share Mak](#share-mak)
 - [License & Acknowledgement](#license--acknowledgement)
 
 
@@ -170,7 +174,13 @@ Note all the `<` and `>` will be replaced due to security reasons. By using `?gi
 
 
 ### Embeding as iframe
-[TBD.]
+Use **gist**:
+
+```html
+<iframe width="300" height="200" src="https://mak.ink?gist=5d52fb081b3570c81e3a" frameborder="0"></iframe>
+```
+
+You can attach `read` or `slide` mode to it, too.
 
 
 ### Slideshow <sup>beta<sup>
@@ -194,17 +204,25 @@ Early builds for macOS and Windows: [Mak mini](https://github.com/quietshu/makpa
 
 
 ### Mobile
-Technique details: due to the slow progress of the [IME](https://caniuse.com/#feat=ime) API implementation on `contenteditable` elements, we're using the native `textarea` as the input handler on mobile devices to make IME work. But textareas cannot do any _styling_ or _customization_. So some implementations in CodeMirror (and any other in-browser editors) might be hacky which caused strange behaviours on mobile devices (such as cursor moving and copy-paste experience).  
+For now, all basic features are available in mobile browsers. But there're yet some known limitations:
+- In Safari (macOS or iOS), `localStorage` is disabled in _private browsing mode_.
+- In Safari on iOS, the screenshot functionality built on SVG `foreignObject` is not working dut to the iOS security model. So it's replaced by another, simpler screenshot strategy.
+- Service Worker is not fully supported on iOS. The offline feature is not working.
 
-Solution: make a native App.
+Technique details: due to the slow progress of the [IME](https://caniuse.com/#feat=ime) API implementation on `contenteditable` elements, we're using the native `textarea` as the input handler on mobile devices to make IME work. But textareas cannot do any _styling_ or _customization_. So some implementations in CodeMirror (and any other in-browser editors) might be hacky which caused strange behaviours on mobile devices (such as cursor moving and copy-paste experience). The (only) solution is: make a native App.
 
 
 ### iOS App
+WIP. Currently you can add the Web version to your Home screen as a bookmark (data will **not** be synced).
+
 [TBD.]
 
 
-## Examples
+### Open Source
+Will do after some code cleanup & refactoring.
 
+
+## Examples
 + Read a file
   - [mak.ink#sample?read](https://mak.ink#sample?read)
   - [mak.ink#sample?read&nomath](https://mak.ink#sample?read&nomath)
@@ -217,11 +235,15 @@ Solution: make a native App.
   - You can easily share a document / slide to others by using these URL schemas on gists.  
 
 
-## Raw thoughts
+## Raw Thoughts
 [@chenglou](https://twitter.com/_chenglou) said this in ReactEurope:
 > Not about potential power of doing more - it's about exploiting properties you gain by doing less. 
 
-As I always believe: Text powers editors. Not the opposite.
+And as I always believe: Text powers editors. Not the opposite.
+
+
+## Share Mak
+[![](https://img.shields.io/twitter/url/https/mak.ink.svg?style=social)](https://twitter.com/intent/tweet?text=A+piece+of+paper:&url=https%3A%2F%2Fmak.ink)
 
 
 ## License & Acknowledgement
@@ -229,4 +251,3 @@ As I always believe: Text powers editors. Not the opposite.
 
 By Shu (g@shud.in), SH 2017  
 https://shud.in
-
