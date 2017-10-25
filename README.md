@@ -8,6 +8,9 @@ A piece of paper.
 > All you do is sit down at a typewriter and bleed.  
 > — Ernest Hemingway
 
+Web App: [Mak](https://mak.ink)  
+Desktop App: [Mak mini](https://github.com/inns/mak-mini)
+
 
 ## Table of Contents
 - [Features*](#features)
@@ -200,7 +203,7 @@ Currently all files will be read as **plain text** files. And the file size limi
 ### Desktop App
 A menubar App as a sticker, no URL stuffs.
 
-Early builds for macOS and Windows: [Mak mini](https://github.com/quietshu/makpad-mini).
+Early builds for macOS and Windows: [Mak mini](https://github.com/inns/mak-mini).
 
 
 ### Mobile
@@ -219,7 +222,7 @@ WIP. Currently you can add the Web version to your Home screen as a bookmark (da
 
 
 ### Open Source
-Will do after some code cleanup & refactoring.
+[TBD.]
 
 
 ## Examples
