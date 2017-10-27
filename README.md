@@ -17,6 +17,7 @@
   </a>
 </div>
 
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width=880 />
 
 > All you do is sit down at a typewriter and bleed.  
 > — Ernest Hemingway
