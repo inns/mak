@@ -1,15 +1,27 @@
-<img src='mak.png' width=128 height=128 align='right'/>
+<h1 align="center">Mak</h1>
 
-# Mak
-[<img src='https://img.shields.io/gitter/room/inns/mak.svg'/>](https://gitter.im/inns/mak) <img src='https://img.shields.io/github/package-json/v/inns/mak.svg'/> [<img src='https://img.shields.io/website-up-down-green-red/https/mak.ink.svg?label=mak.ink'/>](https://mak.ink)  
+<h5 align="center">A piece of paper.</h5>
 
-A piece of paper. 
+<div align="center">
+  <a href="https://twitter.com/intent/tweet?text=@theinnsinn+A+piece+of+paper:&url=https%3A%2F%2Fmak.ink">
+    <img src="https://img.shields.io/twitter/url/https/mak.ink.svg?style=social"/>
+  </a>
+  <a href="https://gitter.im/inns/mak">
+    <img src='https://img.shields.io/gitter/room/inns/mak.svg'/>
+  </a>
+  <a href="https://github.com/inns/mak">
+    <img src='https://img.shields.io/github/package-json/v/inns/mak.svg'/>
+  </a>
+  <a href="https://mak.ink">
+    <img src='https://img.shields.io/website-up-down-green-red/https/mak.ink.svg?label=mak.ink'/>
+  </a>
+</div>
+
 
 > All you do is sit down at a typewriter and bleed.  
 > — Ernest Hemingway
 
-Web App: [Mak](https://mak.ink)  
-Desktop App: [Mak mini](https://github.com/inns/mak-mini)
+<img src='mak.png' width=128 height=128 align='right'/>
 
 
 ## Table of Contents
@@ -20,6 +32,7 @@ Desktop App: [Mak mini](https://github.com/inns/mak-mini)
   + [Mode (#file?mode)](#mode-filemode)
   + [URL Action (?action)](#url-action-action)
 - [Settings (`set:`)](#settings-set)
+- [Developer Console](#developer-console)
 - [More Details](#more-details)
   + [LaTeX](#latex)
   + [gist](#gist)
@@ -98,7 +111,7 @@ Desktop App: [Mak mini](https://github.com/inns/mak-mini)
 > A mode is a pre-defined way to view files, so modes must be attached to a file.  
 > Modes start with a question mark `?` in the URL / link.  
 > Multiple modes are separated by `&`s: `mak.ink?dark&big`.  
-> **Modes are defined by the URL, and won't be stored in settings.**  
+> **Modes are defined by the URL, and won’t be stored in settings.**  
 > So if you click a link or open another file, current mode will be gone.  
 > If you want to use a mode as default option, use settings below.  
 
@@ -152,6 +165,10 @@ Desktop App: [Mak mini](https://github.com/inns/mak-mini)
   - You can also use the _developer console_ to change settings :)
 
 
+## Developer Console
+[TBD.]
+
+
 ## More Details
 
 ### LaTeX
@@ -177,16 +194,16 @@ Note all the `<` and `>` will be replaced due to security reasons. By using `?gi
 
 
 ### Embeding as iframe
-Use **gist**:
+Use **gist** and reading mode:
 
 ```html
-<iframe width="300" height="200" src="https://mak.ink?gist=5d52fb081b3570c81e3a" frameborder="0"></iframe>
+<iframe width="300" height="200" src="https://mak.ink?gist=5d52fb081b3570c81e3a&read" frameborder="0"></iframe>
 ```
 
-You can attach `read` or `slide` mode to it, too.
+[TBD.]
 
 
-### Slideshow <sup>beta<sup>
+### Slideshow<sup>beta<sup>
 A modified version of [remark](https://remarkjs.com/) is embeded to enable some slideshow features.
 
 Slides are separated by `---`, checkout the **Examples** section below. And you can find more details in the remark documentation.
@@ -207,12 +224,12 @@ Early builds for macOS and Windows: [Mak mini](https://github.com/inns/mak-mini)
 
 
 ### Mobile
-For now, all basic features are available in mobile browsers. But there're yet some known limitations:
+For now, all basic features are available in mobile browsers. But there’re yet some known limitations:
 - In Safari (macOS or iOS), `localStorage` is disabled in _private browsing mode_.
-- In Safari on iOS, the screenshot functionality built on SVG `foreignObject` is not working dut to the iOS security model. So it's replaced by another, simpler screenshot strategy.
+- In Safari on iOS, the screenshot functionality built on SVG `foreignObject` is not working dut to the iOS security model. So it’s replaced by another, simpler screenshot strategy.
 - Service Worker is not fully supported on iOS. The offline feature is not working.
 
-Technique details: due to the slow progress of the [IME](https://caniuse.com/#feat=ime) API implementation on `contenteditable` elements, we're using the native `textarea` as the input handler on mobile devices to make IME work. But textareas cannot do any _styling_ or _customization_. So some implementations in CodeMirror (and any other in-browser editors) might be hacky which caused strange behaviours on mobile devices (such as cursor moving and copy-paste experience). The (only) solution is: make a native App.
+Technique details: due to the slow progress of the [IME](https://caniuse.com/#feat=ime) API implementation on `contenteditable` elements, we are using the native `textarea` as the input handler on mobile devices to make IME work. But textareas cannot do any _styling_ or _customization_. So some implementations in CodeMirror (and any other in-browser editors) might be hacky which caused strange behaviours on mobile devices (such as cursor moving and copy-paste experience). The (only) solution is: make a native App.
 
 
 ### iOS App
@@ -222,7 +239,7 @@ WIP. Currently you can add the Web version to your Home screen as a bookmark (da
 
 
 ### Open Source
-[TBD.]
+Will do after some code cleanup & refactoring.
 
 
 ## Examples
@@ -240,16 +257,18 @@ WIP. Currently you can add the Web version to your Home screen as a bookmark (da
 
 ## Raw Thoughts
 [@chenglou](https://twitter.com/_chenglou) said this in ReactEurope:
-> Not about potential power of doing more - it's about exploiting properties you gain by doing less. 
+> Not about potential power of doing more - it’s about exploiting properties you gain by doing less.
 
 And as I always believe: Text powers editors. Not the opposite.
 
 
 ## Share Mak
-[![](https://img.shields.io/twitter/url/https/mak.ink.svg?style=social)](https://twitter.com/intent/tweet?text=A+piece+of+paper:&url=https%3A%2F%2Fmak.ink)
+[![](https://img.shields.io/twitter/url/https/mak.ink.svg?style=social)](https://twitter.com/intent/tweet?text=@theinnsinn+A+piece+of+paper:&url=https%3A%2F%2Fmak.ink)
 
 
 ## License & Acknowledgement
+Powered by [CodeMirror](http://codemirror.net/).
+
 [TBD.]
 
 By Shu (g@shud.in), SH 2017  
