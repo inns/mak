@@ -2,10 +2,11 @@
   <img src='mak.png' width=128 height=128 align='center'/>
 </p>
 
-<p align="center"><b>Mak: an universal notepad</b></p>
+<h3 align="center"><b>Mak: an universal notepad</b></h3>
 
 <p align="center">
   <a href="https://mak.ink">mak.ink</a>&nbsp;&nbsp;&nbsp;
+  <a href="#desktop-app">Desktop App</a>&nbsp;&nbsp;&nbsp;
   <a href="https://inns.studio/mak">Documentation</a>&nbsp;&nbsp;&nbsp;
   <a href="https://twitter.com/quietshu">@quietshu</a>
   <br/>
@@ -205,7 +206,7 @@ Currently all files will be read as **plain text** files. And the file size limi
 
 
 ### Desktop App
-*Currently unavailable.*
+Checkout [Mak<sup>mini</sup>](https://github.com/inns/mak-mini) for macOS and Windows.
 
 
 ### Mobile
