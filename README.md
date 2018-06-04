@@ -2,7 +2,7 @@
   <img src='mak.png' width=128 height=128 align='center'/>
 </p>
 
-<h3 align="center"><b>Mak: an universal notepad</b></h3>
+<h3 align="center"><b>Mak: a universal notepad</b></h3>
 
 <p align="center">
   <a href="https://mak.ink">mak.ink</a>&nbsp;&nbsp;&nbsp;
@@ -127,10 +127,10 @@
   - [mak.ink?dark](https://mak.ink?dark): dark mode
   - [mak.ink?light](https://mak.ink?light): light mode (default)
 + Other settings
-  - [mak.ink?big](https://mak.ink?large): larger text
-  - [mak.ink?cnt](https://mak.ink?cnt): show word counter
+  - [mak.ink?large](https://mak.ink?large): larger text
+  - [mak.ink?num](https://mak.ink?num): show line number
 + Combine
-  - [mak.ink?dark&big](https://mak.ink?dark&big)
+  - [mak.ink?dark&large](https://mak.ink?dark&large)
 
 
 ### URL Action (?action)
@@ -186,7 +186,9 @@ or
 
 
 ### Gist
-Use `?gist=<gist_id>` to load a GitHub Gist. It will be stored to `#<gist_id>` automatically (and replace the original context, if it exists).  
+Use `?gist=<gist_id>` to load a GitHub Gist. It will be stored to `#<gist_id>` automatically (and replace the original context, if it exists), and mark this file as a Gist.  
+
+Other commands: `set:login`, `set:logout`, `set:pull`, `set:push`.
 
 
 ### Embeding as iframe
