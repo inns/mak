@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/twitter/url/https/mak.ink.svg?style=social"/>
   </a>
   <a href="https://mak.ink">
-    <img src='https://img.shields.io/website-up-down-green-red/https/mak.ink.svg?label=mak.ink'/>
+    <img src='https://badgen.net/uptime-robot/day/m780777417-1f8362b19452b5fe087b4c7f'/>
   </a>
 </div>
 
