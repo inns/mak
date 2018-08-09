@@ -15,7 +15,7 @@
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?text=@theinnsinn+A+piece+of+paper:&url=https%3A%2F%2Finns.studio%2Fmak">
-    <img src="https://img.shields.io/twitter/url/https/mak.ink.svg?style=social"/>
+    <img src="https://badgen.net/badge//twitter?icon=twitter"/>
   </a>
   <a href="https://mak.ink">
     <img src='https://badgen.net/uptime-robot/day/m780777417-1f8362b19452b5fe087b4c7f'/>
@@ -240,7 +240,7 @@ And as I always believe: Text powers editors. Not the opposite.
 
 
 ## Share Mak
-[![](https://img.shields.io/twitter/url/https/mak.ink.svg?style=social)](https://twitter.com/intent/tweet?text=@theinnsinn+A+piece+of+paper:&url=https%3A%2F%2Finns.studio%2Fmak)
+[![](https://badgen.net/badge//twitter?icon=twitter)](https://twitter.com/intent/tweet?text=@theinnsinn+A+piece+of+paper:&url=https%3A%2F%2Finns.studio%2Fmak)
 
 
 ## License & Acknowledgement
