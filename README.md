@@ -15,7 +15,7 @@
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?text=@theinnsinn+A+piece+of+paper:&url=https%3A%2F%2Finns.studio%2Fmak">
-    <img src="https://badgen.net/badge//twitter?icon=twitter"/>
+    <img src="https://badgen.net/badge//tweet?icon=twitter"/>
   </a>
   <a href="https://mak.ink">
     <img src='https://badgen.net/uptime-robot/day/m780777417-1f8362b19452b5fe087b4c7f'/>
@@ -27,7 +27,9 @@
 > All you do is sit down at a typewriter and bleed.  
 > — Ernest Hemingway
 
-**Read https://inns.studio/mak for more information & demos.**
+**Please visit https://inns.studio/mak for more information and live demos.** 
+
+Join [Mak User Group](https://t.me/mak_ink) ([中文用户群](https://t.me/mak_ink_cn)) on Telegram.
 
 ## Table of Contents
 - [Features*](#features)
@@ -53,30 +55,31 @@
 
 
 ## Features<sup>*</sup>
-- “maximally minimal”
-- multiple files
+- a “maximally minimal” design
+- blazing fast
+- multiple files support
 - auto-saving
-- offline
-- code highlighting
-- LaTeX
-- powerful editor
+- works in offline
+- side by side preview
+- syntax highlighting
+- powerful text editor
+- LaTeX support
 - task lists
 - notepad links
-- side by side preview
 - quick commands
 - customization
 - line number
 - word counter
 - URL configuration
 - interactive plain text
-- Gist sync
-- browser zoom friendly
-- print friendly
-- PDF
-- export
+- sync via Gists
+- zoom friendly
+- printer friendly
+- PDF generating
+- exporting
 - ...
 
-<small><sup>*</sup>Some features such as offline and sync may act differently in different browsers.</small>
+<small><sup>*</sup>Some features such as offline and sync may behave differently in different browsers.</small>
 
 
 ## Shortcuts
@@ -90,14 +93,14 @@
 > Use the middle button on mouse to open links in new tab.  
 > Use <kbd>⌘/Ctrl + Enter</kbd> over a link to “click” it.
 > Type `set:` to open quick commands.  
-> Type `go:` to open quick jumping.  
+> Type `go:` to open quick jump.  
 
 
 ## URL / link
 ### File (#file)
 > Files start with a hashtag `#` in the URL / link.  
 > Files can be accessed via in-document links: `[my todos](#todo)`.  
-> Files can be accessed via quick jumping: `go:todo` and hit <kbd>enter</kbd>.  
+> Files can be accessed via quick jump: `go:todo` and hit <kbd>enter</kbd>.  
 
 + Default file
   - [mak.ink#](https://mak.ink#): the default file
@@ -170,7 +173,7 @@
 ## More Details
 
 ### LaTeX
-The LaTeX rendering feature is powered by [KaTeX](https://khan.github.io/KaTeX/).
+LaTeX rendering is powered by [KaTeX](https://khan.github.io/KaTeX/).
 
 You need to wrap the $ inside an inlined code block to render LaTeX inlined equations, or use $$ inside a multi-line code block to get an equation block:  
 
