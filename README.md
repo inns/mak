@@ -15,7 +15,7 @@
 
 <div align="center">
   <a href="https://twitter.com/intent/tweet?text=@theinnsinn+A+piece+of+paper:&url=https%3A%2F%2Finns.studio%2Fmak">
-    <img src="https://badgen.net/badge//tweet?icon=twitter"/>
+    <img src="https://badgen.net/badge/Share/tweet?icon=twitter"/>
   </a>
   <a href="https://mak.ink">
     <img src='https://badgen.net/uptime-robot/day/m780777417-1f8362b19452b5fe087b4c7f'/>
