@@ -8,7 +8,7 @@
   <a href="https://mak.ink">mak.ink</a>&nbsp;&nbsp;&nbsp;
   <a href="#desktop-app">Desktop App</a>&nbsp;&nbsp;&nbsp;
   <a href="https://inns.studio/mak">Documentation</a>&nbsp;&nbsp;&nbsp;
-  <a href="https://twitter.com/quietshu">@quietshu</a>
+  <a href="https://twitter.com/shuding_">@shuding_</a>
   <br/>
   <br/>
 </p>
